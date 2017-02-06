@@ -1,0 +1,64 @@
+{
+  "name": "Meson",
+  "scopeName": "source.meson",
+  "author": "Patrick Griffis",
+  "fileTypes": [
+    "meson.build",
+    "meson_options.txt"
+  ],
+  "uuid": "b3713e1e-4289-4e0c-88af-79e8876e5adb",
+  "patterns": [
+    {
+      "match": "\\#.*$",
+      "name": "comment.line.meson"
+    },
+    {
+      "match": "\\'[^']*\\'",
+      "name": "string.quoted.single.single-line.meson"
+    },
+    {
+      "match": "\\b(if|else|elif|endif|foreach|endforeach)\\b",
+      "name": "keyword.control.flow.meson"
+    },
+    {
+      "match": "\\b(and|not|or)\\b",
+      "name": "keyword.operator.logical.meson"
+    },
+    {
+      "match": "\\b(true|false)\\b",
+      "name": "constant.language.meson"
+    },
+    {
+      "match": "\\b([1-9]+[0-9]*\\.[0-9]*)",
+      "name": "constant.numeric.float.meson"
+    },
+    {
+      "match": "\\b([1-9]+[0-9]*|0)",
+      "name": "constant.numeric.integer.decimal.meson"
+    },
+    {
+      "match": "\\b(meson)\\b",
+      "name": "support.variable.meson"
+    },
+    {
+      "match": "\\b([\\w_]+)\\s*(?=:)",
+      "name": "variable.parameter.function.keyword.meson"
+    },
+    {
+      "match": "<\\=|>\\=|\\=\\=|<|>|\\!\\=",
+      "name": "keyword.operator.comparison.meson"
+    },
+    {
+      "match": "\\+\\=",
+      "name": "keyword.operator.assignment.augmented.meson"
+    },
+    {
+      "match": "\\+|\\-|\\*|%|\\/",
+      "name": "keyword.operator.arithmetic.meson"
+    },
+    {
+      "match": "(?x)\\b(\n  add_global_arguments|\n  add_global_link_arguments|\n  add_languages|\n  add_project_arguments|\n  add_project_link_arguments|\n  add_test_setup|\n  benchmark|\n  build_target|\n  configuration_data|\n  configure_file|\n  custom_target|\n  declare_dependency|\n  dependency|\n  error|\n  environment|\n  executable|\n  find_program|\n  find_library|\n  files|\n  generator|\n  get_option|\n  get_variable|\n  import|\n  include_directories|\n  install_data|\n  install_headers|\n  install_man|\n  install_subdir|\n  is_subproject|\n  is_variable|\n  jar|\n  join_paths|\n  library|\n  message|\n  option|\n  project|\n  run_command|\n  run_target|\n  set_variable|\n  shared_library|\n  shared_module|\n  static_library|\n  subdir|\n  subproject|\n  test|\n  vcs_tag\n)\\b\\s*(?=\\()",
+      "name": "support.function.builtin.meson"
+    }
+  ]
+}
