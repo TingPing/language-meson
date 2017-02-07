@@ -38,7 +38,7 @@ foo = false
 foo = ['te\'st', 1, 3.3, '''test''']
 foo += 1231
 foo = '@0@'.format('test')
-foo = include_directories('foo', kwarg: 'bar')
+foo = include_directories('foo', kwarg: 'bar', include_directories: 'foo')
 foo = true ? 'true' : 'false'
 foo = 2 - 1 + 3 % 8 / 4 * 3
 
