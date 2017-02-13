@@ -36,7 +36,7 @@
       "name": "constant.numeric.integer.decimal.meson"
     },
     {
-      "match": "\\b(meson)\\b",
+      "match": "\\b(meson|host_machine|build_machine|target_machine)\\b",
       "name": "support.variable.meson"
     },
     {
