@@ -1,7 +1,7 @@
 {
   "name": "language-meson",
   "description": "Meson language support in Atom",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "Apache",
   "engines": {
     "atom": "*"
