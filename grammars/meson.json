@@ -16,7 +16,7 @@
       "include": "#string_quoted_single"
     },
     {
-      "match": "\\b(if|else|elif|endif|foreach|endforeach)\\b",
+      "match": "\\b(elif|else|if|endif|foreach|endforeach|continue|break)\\b",
       "name": "keyword.control.flow.meson"
     },
     {
