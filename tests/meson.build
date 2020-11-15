@@ -46,6 +46,8 @@ foo = 0xFF + 0x12
 if true and false
 elif false or true
 elif true not false
+elif (1 in [1, 2])
+elif (3 not in [1, 2])
 elif foo == 12
 elif (foo != 124) and (foo <= 200)
 else
