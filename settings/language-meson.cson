@@ -1,7 +1,7 @@
 '.source.meson':
   'editor':
-    'tabLength': 2
     'softTabs': true
+    'tabLength': 2
     'commentStart': '# '
     'increaseIndentPattern': '^\\s*(if|elif|else|foreach)\\b.*$'
     'decreaseIndentPattern': '^\\s*(endif|elif|else|endforeach)\\s*$'
