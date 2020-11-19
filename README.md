@@ -4,8 +4,10 @@ Syntax highlighting for the [Meson](http://mesonbuild.com/) language.
 
 ## Note for other editors
 
-Editors such as Visual Studio Code, Sublime Text, and TextMate can use the same
-syntax highlighting but the CSON file must be converted to the TextMate format.
+Editors such as Sublime Text, TextMate, and Visual Studio Code can use the same
+syntax highlighting but the grammar file must be converted to the TextMate format.
+
+Note that you would first have to convert the grammar file in either JSON format, PLIST format, or YAML format.
 
 The easiest method to do so is via the Sublime Text [PackageDev](https://packagecontrol.io/packages/PackageDev)
 package. Somebody could decouple the conversion [library](https://github.com/SublimeText/PackageDev/tree/master/plugins/lib/fileconv)
